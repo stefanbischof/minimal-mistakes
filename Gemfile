@@ -1,9 +1,18 @@
 source "https://rubygems.org"
+
+#gem "github-pages", group: :jekyll_plugins
+
+#group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+#end
+
 #gemspec
-gem "jekyll", "~> 3.3"
-gem "jekyll-paginate", "~> 1.1"
-gem "jekyll-sitemap", "~> 1.0"
-gem "jekyll-gist", "~> 1.4"
-gem "jekyll-feed", "~> 0.9.1"
-gem "jemoji", "~> 0.8"
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+require 'rbconfig'
+if RbConfig::CONFIG['target_os'] =~ /darwin(1[0-3])/i
+  gem 'rb-fsevent', '<= 0.9.4'
+end

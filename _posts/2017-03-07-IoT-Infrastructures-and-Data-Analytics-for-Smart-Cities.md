@@ -1,0 +1,7 @@
+---
+layout: single
+title: A Public Transportation Journey Planner Enabled by IoT Data Analytics
+categories: publications
+---
+
+We submitted the paper "A Public Transportation Journey Planner Enabled by IoT Data Analytics" to the [IoT Infrastructures and Data Analytics for Smart Cities workshop](https://mobcom.ecs.hs-osnabrueck.de/icin/) co-located with the [20th ICIN Conference Innovations in Clouds, Internet and Networks](http://www.icin-conference.org/).
