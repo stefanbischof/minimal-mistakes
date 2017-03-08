@@ -174,7 +174,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:title # sb: remove the trailing slash
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -246,7 +246,7 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false # show related posts, which is useless without latent semantic indexing (lsi) which in turn is disabled by github
   # _pages
   - scope:
       path: ""
